@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    margin-top: 250px;
+    height: 250px;
+    background-color: rgba(0, 255, 255, 0.096);
+    display: inline-block;
+    width: 260px;
+}
+body{
+    background-color: aliceblue;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.199);
+    border: none;
+    margin-left: 3px;
+    border-radius: 5px 2px;
+}
+label{
+    color: rgb(0, 138, 173);
+    max-width: 10px;
+    margin-left: 10px;
+    text-shadow: rgb(0, 0, 0) 5px 2px 50px ;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+}
+
+input:hover{
+    background-color: ivory;
+}
+
+@media (max-width: 642px){
+    body{
+        background-size:inherit ;
+        background-position-y: 0px;
+    }
+
+
+
+
+}
